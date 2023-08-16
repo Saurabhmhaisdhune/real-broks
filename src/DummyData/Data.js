@@ -13,6 +13,18 @@ export const PROPERTY_DATA=[
     location: "Mumbai",
   },
   {
+    title: "Sunderwan",
+    image:
+      "https://www.mashvisor.com/blog/wp-content/uploads/2018/04/bigstock-Row-Of-New-Suburban-Homes-55511546.jpg",
+    price: 5000,
+    address: "F-153, D1 Flats, Block D 2, Chanakyapuri, New Delhi, Delhi 110021",
+    beds: 5,
+    bathroom: 7,
+    size: "6x7 m2",
+    type: "Resort",
+    location: "Mumbai",
+  },
+  {
     title: "Chandrakant Dhuru",
     image:
       "https://ap.rdcpix.com/e7e3a49e13604baefe86badab93220b0l-m1630163601xd-w400.jpg",
@@ -62,6 +74,19 @@ export const PROPERTY_DATA=[
     location: "Delhi",
   },
   {
+    title: "Chandrakant Dhuru",
+    image:
+      "https://ap.rdcpix.com/e7e3a49e13604baefe86badab93220b0l-m1630163601xd-w400.jpg",
+    price: 2000,
+    address:
+      "2RFM+QV5, Balkrishna Pathare Rd, Chandrakant Dhuru Wadi, Dadar, Mumbai, Maharashtra 400028",
+    beds: 4,
+    bathroom: 4,
+    size: "7x7 m2",
+    type: "Apartment",
+    location: "Delhi",
+  },
+  {
     title: "Shanthala",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZnsi6fih7b7bD8ngKmqMezrdJNf5HX5Hv2lSFGvZslH1mHZ-uX-5by98r1E8cpnWul1g&usqp=CAU",
@@ -86,6 +111,18 @@ export const PROPERTY_DATA=[
     location: "Bangaluru",
   },
   {
+    title: "Jahangirpuri",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI-fwgWHkd0eMt2RA79hRU8OHIFOQItOT4KB2iO_Pr-wQMVl2l19OxMD7AhQQLfXBi7VU&usqp=CAU",
+    price: 3000,
+    address: "Sahu Rd, Bhalswa Jahangirpuri, Jahangirpuri, Delhi, 110033",
+    beds: 4,
+    bathroom: 5,
+    size: "4x5 m2",
+    type: "Apartment",
+    location: "Bangaluru",
+  },
+  {
     title: "Ganapathy",
     image:
       "https://patch.com/img/cdn/users/22821274/2014/11/raw/2014115474c4f4531d1.jpg",
@@ -95,6 +132,18 @@ export const PROPERTY_DATA=[
     bathroom: 4,
     size: "8x6 m2",
     type: "Apartment",
+    location: "Chennai",
+  },
+  {
+    title: "Shanthala",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZnsi6fih7b7bD8ngKmqMezrdJNf5HX5Hv2lSFGvZslH1mHZ-uX-5by98r1E8cpnWul1g&usqp=CAU",
+    price: 5000,
+    address: "St Mark's Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+    beds: 5,
+    bathroom: 7,
+    size: "5x7 m2",
+    type: "Resort",
     location: "Chennai",
   },
   {
@@ -112,7 +161,7 @@ export const PROPERTY_DATA=[
   {
     title: "Chanakyapuri",
     image:
-      "https://www.zillowstatic.com/bedrock/app/uploads/sites/43/real-estate-comps-91b8c8.jpg",
+      "https://torontolife.com/wp-content/uploads/2020/07/DSC_2119-803x603.jpg",
     price: 2000,
     address: "F-153, D1 Flats, Block D 2, Chanakyapuri, New Delhi, Delhi 110021",
     beds: 5,
