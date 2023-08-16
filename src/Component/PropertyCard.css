@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.pro-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;  
+    padding: 5px 15px 15px 15px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+.pro-rooms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    padding: 15px 15px;
+}
+.pro-beds, .pro-bathrooms, .pro-size{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    color: gray;
+    font-size: 14px;
+}
+.icons{
+    color: #1976d2;
+}
+.pro-picture{
+    width: 400px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.image{
+    height: auto;
+}
+.pro-prices{
+    font-size:22px ;
+    color: #1976d2;
+    font-weight: 500;
+}
+.pro-name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.pro-address{
+    color: gray;
+    font-size: 15px;
+}
+/* 
+pro-beds
+pro-bathrooms
+pro-size */

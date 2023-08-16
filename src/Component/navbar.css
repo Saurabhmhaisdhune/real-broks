@@ -1,0 +1,30 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    height: 80px;
+    padding: 0px 100px;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    gap: 10px;
+}
+.VillaRoundedIcon{
+    color: rgb(57, 110, 255);
+}

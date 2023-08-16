@@ -1,0 +1,86 @@
+.app-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+  }
+  .Search-properties{
+    font-size: 30px;
+  }
+  .app-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:50px 200px ;
+    gap: 50px;
+  }
+  @media only screen and (max-width: 1270px){
+    .app-card{
+        justify-content: center;
+    }
+  }
+  .dropdown{
+    border: none;
+  }
+  .dropdown:focus{
+    border: none;
+  }
+  .filters{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 200px;
+    background-color: white;
+    padding: 15px 20px;
+  }
+  .filter-drop{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 225px;
+  }
+  @media only screen and (max-width: 1550px){
+    .filter-drop{
+        width: 200px;
+    }
+  }
+  @media only screen and (max-width: 1320px){
+    .filter-drop{
+        width: 150px;
+    }
+  }
+
+  .filter-loc{
+    color: gray;
+    font-size: 15px;
+    padding-left:3px;
+  }
+  .date {
+    position: absolute;
+    top: 297px;
+    z-index: 2;
+  }
+  .headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* .headerSearchInput {
+    border: none;
+    outline: none;
+  } */
+  
+  .headerSearchText {
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+  }
+  .dropdown{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 0px;
+  }
